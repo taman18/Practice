@@ -216,3 +216,23 @@ let num;
     console.log(name2.pop());
     console.log(name2.shift());
     console.log(name1);
+    let arr1=[1,2,3,4];
+    let arr2=[true,false,true];
+    // let arr3=arr1.concat(arr2);
+    // console.log(arr3);
+    console.log(arr1.concat(arr2)); //return new array
+    let mynum=[21,32,4,12,21,44,89];
+    console.log(mynum.indexOf(21,1));
+    let arr3=[...arr1,...arr2];  //spread function
+    console.log(arr3);
+    console.log(arr3.slice(1,4));
+    // for each loop
+    arr3.forEach(function(index,name,abc){
+        console.log(index,name,abc);
+    })
+    // let num1=['T','a','m','a','n'];
+    // console.log(num1.join(""));
+    // let num2=num1.join("");
+    // console.log(num2);
+    // let num3=num2.split();
+    // console.log(num3);
