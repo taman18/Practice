@@ -92,15 +92,127 @@ let num;
         }
     }
 
-if(Symbol("abc")===Symbol("abc"))
-{
-    console.log("abc");
-}
-else
-    console.log("nitesh");
+// if(Symbol("abc")===Symbol("abc"))
+// {
+//     console.log("abc");
+// }
+// else
+//     console.log("nitesh");
 
-    console.log(typeof(Symbol));
+//     console.log(typeof(Symbol));
 
-    const a=new String("divya")
-    console.log(a);
-    //  Ternery operator
+//     const a=new String("divya")
+//     console.log(a);
+    
+
+// switch statements
+    // let s;
+    // function find_week(){
+    // s=document.getElementById("week_btn").value;
+    // console.log(s);
+    // switch(s)
+    // {
+    //     case "1":
+    //     {
+    //         alert("monday");
+    //         document.getElementById("week").innerHTML="monday";
+    //         break;
+    //     }
+    //     case "2":
+    //     {
+    //         alert("Tuesday");
+    //         document.getElementById("week").innerHTML="Tuesday";
+    //         break;
+    //     }
+    //     case "3":
+    //     {
+    //         alert("Wednesday");
+    //         document.getElementById("week").innerHTML="Wednesday";
+    //         break;
+    //     }
+    //     case "4":
+    //     {
+    //         alert("Thrusday");
+    //         document.getElementById("week").innerHTML="Thursday";
+    //         break;
+    //     }
+    //     case "5":
+    //     {
+    //         alert("Friday");
+    //         document.getElementById("week").innerHTML="Friday";
+    //         break;
+    //     }
+    //     case "6":
+    //     {
+    //         alert("Saturday");
+    //         document.getElementById("week").innerHTML="Saturday";
+    //         break;
+    //     }
+    //     case "7":
+    //         {
+    //             alert("sunday");
+    //             document.getElementById("week").innerHTML="Sunday";
+    //             break;
+    //         }
+    //         default:
+    //             alert("please enter correct option!!!!");
+    //             document.getElementById("week").innerHTML="Please enter correct option!!!";
+                
+    // }
+    // }
+
+        // Ternary operator
+        // find the number is odd or even using ternary operator
+        let e;
+        function find_odd(){
+        e=document.getElementById("odd_even").value;
+
+        e%2===0 ? alert("even") : alert("odd");
+        }
+
+
+    // 05/01/2024
+    // Differene between let var and const
+    // var x=10;
+    // console.log(x);
+    // function practice()
+    // {
+    //      x=20;
+    //     console.log(x);
+    // }
+    // practice();
+    // console.log(x);
+
+    // let x=100;
+    // console.log(x);
+    // function practice()
+    // {
+    //        let x=20;
+    //     console.log(x);
+    // }
+    // practice();
+    // console.log(x);
+    
+
+    // const x=100;
+    // console.log(x);
+    // function practice()
+    // {
+    //     console.log(x);
+    // }
+    // practice();
+
+
+    // Arrays in javascript
+    // 1st way
+    let name1=[10,82,43,48,54,32];
+    // 2nd way
+    let name2=new Array(10,82,21,49);
+    console.log(name1);
+    console.log(name2);
+    // Methods of array
+    console.log(name1.push(32));  //return length of array
+    console.log(name1.unshift(21));   //return length of array
+    console.log(name2.pop());
+    console.log(name2.shift());
+    console.log(name1);
