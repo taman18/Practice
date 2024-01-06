@@ -239,4 +239,4 @@ let num;
     const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
     fruits.slice(1,4);
     console.log(fruits);
-    //hy
+    //hy this is my project
