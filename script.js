@@ -236,3 +236,6 @@ let num;
     // console.log(num2);
     // let num3=num2.split();
     // console.log(num3);
+    const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+    fruits.slice(1,4);
+    console.log(fruits);
